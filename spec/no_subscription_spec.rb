@@ -6,6 +6,6 @@ describe NoSubscription do
   end
 
   it "does not have mentoring" do
-    expect(NoSubscription.new.has_mentoring?).to be_false
+    expect(NoSubscription.new.has_mentoring?).to be_falsey
   end
 end
